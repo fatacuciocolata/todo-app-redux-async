@@ -1,0 +1,29 @@
+.App {
+  width: 600px;
+  margin: 0 auto;
+}
+h3 {
+  margin-top: 0;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+ul li {
+  list-style-type: none;
+}
+
+// loading spinner
+@keyframes loading-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.fa-spinner {
+  animation: loading-spin infinite 1s linear;
+  height: 16px;
+}

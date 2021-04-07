@@ -1,0 +1,8 @@
+.label {
+    flex-grow: 4;
+    cursor: pointer
+}
+.label--completed {
+    color: #aaa;
+    text-decoration: line-through;
+}
