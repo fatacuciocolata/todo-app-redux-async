@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,aAAa,CAAC;EACV,OAAO,EAAE,IAAI;EACb,WAAW,EAAE,MAAM;EACnB,OAAO,EAAE,IAAI;EACb,aAAa,EAAE,iBAAiB;EAChC,UAAU,EAAE,IAAI;CACnB",
+    "sources": [
+        "NoTodoItem.scss"
+    ],
+    "names": [],
+    "file": "NoTodoItem.css"
+}

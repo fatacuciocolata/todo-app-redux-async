@@ -1,0 +1,46 @@
+.App {
+  width: 600px;
+  margin: 0 auto;
+}
+
+h3 {
+  margin-top: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+@-webkit-keyframes loading-spin {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@keyframes loading-spin {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+.fa-spinner {
+  -webkit-animation: loading-spin infinite 1s linear;
+          animation: loading-spin infinite 1s linear;
+  height: 16px;
+}
+/*# sourceMappingURL=App.css.map */

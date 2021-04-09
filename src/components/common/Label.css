@@ -1,0 +1,9 @@
+.label {
+  -webkit-box-flex: 4;
+      -ms-flex-positive: 4;
+          flex-grow: 4;
+  cursor: pointer .label --completed;
+  cursor-color: #aaa;
+  cursor-text-decoration: line-through;
+}
+/*# sourceMappingURL=Label.css.map */

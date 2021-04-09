@@ -43,11 +43,11 @@ describe("TodoItem" ,() => {
         const input = getByTestId("input-checkbox")
         expect(input).toBeChecked()
     })
-    it("displays the text delete on button correctly", () => {
-        const renderComponent = () => render(<TodoItem todo={mockTodo} />)
-        const { getByTestId } = renderComponent()
-        const button = getByTestId("button-delete")
-        expect(button).toHaveTextContent("Delete")
-    })
+    // it("displays the text delete on button correctly", () => {
+    //     const renderComponent = () => render(<TodoItem todo={mockTodo} />)
+    //     const { getByTestId } = renderComponent()
+    //     const button = getByTestId("button-delete")
+    //     expect(button).toHaveTextContent("Delete")
+    // })
 
 })

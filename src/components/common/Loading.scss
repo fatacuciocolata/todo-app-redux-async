@@ -1,4 +1,4 @@
-.loading__background {
+.overlay {
     position: fixed;
     left: 0;
     bottom: 0; 
@@ -6,11 +6,11 @@
     top: 0;
     background: rgba(0, 0, 0, 0.3);
     z-index: 9999;
-}
-.loading__content{
-    position: fixed;
-    top: 35px;
-    color: #fff;
-    font-size: 20px;
-    text-align: center;
+    &__content{
+        position: fixed;
+        top: 35px;
+        color: #fff;
+        font-size: 20px;
+        text-align: center;
+    }
 }

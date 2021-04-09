@@ -1,0 +1,43 @@
+.input--rounded {
+  position: relative;
+  margin-top: -10px;
+  margin-right: 18px;
+}
+
+.input--rounded label {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  cursor: pointer;
+  height: 28px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 28px;
+}
+
+.input--rounded label:after {
+  border: 2px solid #fff;
+  border-top: none;
+  border-right: none;
+  content: "";
+  height: 6px;
+  left: 7px;
+  opacity: 0;
+  position: absolute;
+  top: 8px;
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+  width: 12px;
+}
+
+.input--rounded input[type="checkbox"]:checked + label {
+  background: -webkit-gradient(linear, left bottom, right top, from(#7e6784), color-stop(#71567a), color-stop(#634570), color-stop(#553566), to(#47255d));
+  background: linear-gradient(to right top, #7e6784, #71567a, #634570, #553566, #47255d);
+  border-color: linear-gradient(to right top, #7e6784, #71567a, #634570, #553566, #47255d);
+}
+
+.input--rounded input[type="checkbox"]:checked + label:after {
+  opacity: 1;
+}
+/*# sourceMappingURL=InputCheckbox.css.map */

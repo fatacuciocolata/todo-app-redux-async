@@ -7,8 +7,6 @@ import './Wrapper.scss'
 // }
 export const Wrapper: React.FC = props => {
     return (
-        <div className="wrapper">
-            {props.children}
-        </div>
+        <div className="wrapper"></div>
     )
 }

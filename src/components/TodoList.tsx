@@ -22,9 +22,11 @@ export const TodoList: React.FC<ITodoListProps> = props => {
         }})
 
     return (
-        <>
-            {todosArrayFiltered.length > 0 && todosArrayFiltered.map((todo: ITodo) => <ul><TodoItem key={todo.id} todo={todo} /></ul>)}
-            {todosArrayFiltered.length === 0 && <ul><NoTodoItem>No todos!</NoTodoItem></ul>}
+        <>  <ul>
+                {todosArrayFiltered.length > 0 && todosArrayFiltered.map((todo: ITodo) =><TodoItem key={todo.id} todo={todo} />)}
+                {todosArrayFiltered.length === 0 && <NoTodoItem>No todos!</NoTodoItem>}
+            </ul>
+
         </>
     )
 }

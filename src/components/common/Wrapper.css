@@ -1,0 +1,13 @@
+.wrapper {
+  background-image: url("https://wallpapercave.com/wp/wp5123161.jpg");
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: cover;
+  height: 30vh;
+  position: fixed;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+/*# sourceMappingURL=Wrapper.css.map */

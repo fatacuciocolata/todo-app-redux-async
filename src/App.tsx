@@ -16,19 +16,22 @@ function App() {
   const { filter } = useFilter()
   const { isLoading } = useAppState()
 
+  // const isLoading = true
   return (
-    <Wrapper>
-      <div className="App">          
-          {isLoading && <Loading />}
-            <>
-                <AddTodo />
-                <TodoListStyled>
-                  <TodoList filter={filter} todos={todos} />
-                  <Filter filter={filter} />
-                </TodoListStyled>
-            </>
-      </div>
-    </Wrapper>
+    <>
+      <Wrapper></Wrapper>
+      
+        <div className="App">          
+            {isLoading && <Loading />}
+              <>
+                  <AddTodo />
+                  <TodoListStyled>
+                    <TodoList filter={filter} todos={todos} />
+                    <Filter filter={filter} />
+                  </TodoListStyled>
+              </>
+        </div>
+    </>
   );
 }
 
